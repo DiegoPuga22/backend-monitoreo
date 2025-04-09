@@ -13,7 +13,7 @@ def get_db_connection():
             password="5d9n7zJ@6",
             database="admin_plantify",
             charset="utf8",  # Usa utf8 en lugar de utf8mb4
-            collation="utf8mb4_general_ci"
+            collation="utf8_general_ci"
         )
         logger.info("Conexión a la base de datos exitosa")
         return conexion
